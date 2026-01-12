@@ -6,7 +6,7 @@
 ## 2.2.0-beta (2026-01-05)
 
 ### Added
-- `chart:enable_controls(int)
+- `chart:enable_controls(int)`
 - `chart:enable_timeline_controls(int) and chart:enable_timeline_controls()`
 - `chart:tooltip_all_series()`
 - `chart:disable_markers()`
