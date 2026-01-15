@@ -9,14 +9,6 @@ nav_order: 1
 📚 [PSRIO Documentation](https://docs.psr-inc.com/knowledge/additional_tools/psrio/getting_started/introduction.html)
 
 
-## 2.2.0-beta (2026-01-05)
-
-### Added
-- `chart:enable_controls(int)`
-- `chart:enable_timeline_controls(int) and chart:enable_timeline_controls()`
-- `chart:tooltip_all_series()`
-- `chart:disable_markers()`
-- `chart:hide_play_control()`
 
 ## 1.3.0 (2025-04-10)
 
