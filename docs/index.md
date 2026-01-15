@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
 # PSRIO Release Notes
 
 📚 [PSRIO Documentation](https://docs.psr-inc.com/knowledge/additional_tools/psrio/getting_started/introduction.html)
@@ -11,69 +17,6 @@
 - `chart:tooltip_all_series()`
 - `chart:disable_markers()`
 - `chart:hide_play_control()`
-
-## 2.1.0 (2026-01-05)
-
-### Added
-- `exp:scenarios_percentile_indexes_left(int)`
-- `exp:scenarios_percentile_index_right(int)`
-- `exp:scenarios_percentile_index_range(int, int)`
-- `exp:select_dummy_plants(string)`
-- `exp:select_agent_by_code(string)`
-- `exp:select_agents_by_code({string})`
-- `exp:agents_to_scenarios()`
-- `chart:add_horizontal_range(int, int, options)`
-- `chart:add_horizontal_line(int, options)`
-- `chart:add_vertical_range(int, int, options)`
-- `chart:add_vertical_line(int, options)`
-- `chart:add_vertical_range({day=int, month=int, year=int}, {day=int, month=int, year=int}, options)`
-- `chart:add_vertical_line({day=int, month=int, year=int}, options)`
-- `chart:add_vertical_line({day=int, month=int, year=int}, options)`
-- `chart:hide_state_series()`
-- `chart:enable_3d_view()`
-- `chart:enable_vertical_grid()`
-- `--not_found_output_list` argument
-- `chart:add_line_block_categories(exp)`
-- `chart:add_column_block_categories(exp)`
-- `chart:xlabel_rotation(int)`
-- `os.time()`
-- `os.difftime(time1, time2)`
-- `os.clock()`
-- `BY_WEIGHTED_VAR_L(int)` aggregation
-- `BY_WEIGHTED_VAR_R(int)` aggregation
-
-#### Added (Input Data)
-- `battery.oem_type`
-- `thermal.dummy_plant_1`
-- `thermal.dummy_plant_2`
-- `thermal.dummy_plant_3`
-- `renewable.curtailment_cost`
-- `load.active_power`
-- `Collection():get_vector_values(Attribute_name, Agent_name)`
-- `InterconnectionSum():get_coefficients(Interconnection_name)`
-
-### Fixed
-- `chart data exports now open correctly in Excel, regardless of separation settings`
-
-## 2.0.0 (2025-05-18)
-
-### Added
-
-#### Added (Collection)
-- ACLine
-- DCLine
-- FlexibleDemand
-- GenericVariable
-- HydroGenerator
-- PhaseShifter
-- RenewableGenerator
-- SerieCapacitor
-- ThermalGenerator
-- Transformer
-- ThreeWindingTransformer
-
-### Changed
-- Update the studies database to SDDP 18
 
 ## 1.3.0 (2025-04-10)
 
