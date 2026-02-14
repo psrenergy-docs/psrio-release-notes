@@ -3,7 +3,7 @@
 📚 [PSRIO Documentation](https://docs.psr-inc.com/knowledge/additional_tools/psrio/getting_started/introduction.html)
 
 
-## 2.2.0-beta (2026-01-05)
+## 3.0.0 (2026-02-14)
 
 ### Added
 - `chart:enable_controls(int)`
@@ -11,6 +11,12 @@
 - `chart:tooltip_all_series()`
 - `chart:disable_markers()`
 - `chart:hide_play_control()`
+- `--multiple_s3_load` argument
+- `BY_CVAR_L_EXCLUDING(int, double)` aggregation
+- `BY_CVAR_R_EXCLUDING(int, double)` aggregation
+- `--old_dashboard_template` argument
+- `TimeSeries():set_reference_date('dd/mm/yyyy')`
+- `new dashboard template`
 
 ## 2.1.0 (2026-01-05)
 
